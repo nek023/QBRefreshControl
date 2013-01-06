@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AABE949A1699CB75002B8716 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABE94991699CB75002B8716 /* UIKit.framework */; };
+		AABE949C1699CB75002B8716 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABE949B1699CB75002B8716 /* Foundation.framework */; };
+		AABE949E1699CB75002B8716 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABE949D1699CB75002B8716 /* CoreGraphics.framework */; };
+		AABE94A41699CB75002B8716 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AABE94A21699CB75002B8716 /* InfoPlist.strings */; };
+		AABE94A61699CB75002B8716 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94A51699CB75002B8716 /* main.m */; };
+		AABE94AA1699CB75002B8716 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94A91699CB75002B8716 /* AppDelegate.m */; };
+		AABE94AC1699CB75002B8716 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AABE94AB1699CB75002B8716 /* Default.png */; };
+		AABE94AE1699CB75002B8716 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AABE94AD1699CB75002B8716 /* Default@2x.png */; };
+		AABE94B01699CB75002B8716 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AABE94AF1699CB75002B8716 /* Default-568h@2x.png */; };
+		AABE94B31699CB75002B8716 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABE94B11699CB75002B8716 /* MainStoryboard.storyboard */; };
+		AABE94B61699CB75002B8716 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94B51699CB75002B8716 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AABE94951699CB75002B8716 /* QBRefreshControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QBRefreshControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABE94991699CB75002B8716 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AABE949B1699CB75002B8716 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AABE949D1699CB75002B8716 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AABE94A11699CB75002B8716 /* QBRefreshControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QBRefreshControl-Info.plist"; sourceTree = "<group>"; };
+		AABE94A31699CB75002B8716 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AABE94A51699CB75002B8716 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AABE94A71699CB75002B8716 /* QBRefreshControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QBRefreshControl-Prefix.pch"; sourceTree = "<group>"; };
+		AABE94A81699CB75002B8716 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AABE94A91699CB75002B8716 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AABE94AB1699CB75002B8716 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AABE94AD1699CB75002B8716 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AABE94AF1699CB75002B8716 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AABE94B21699CB75002B8716 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AABE94B41699CB75002B8716 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AABE94B51699CB75002B8716 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AABE94921699CB75002B8716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABE949A1699CB75002B8716 /* UIKit.framework in Frameworks */,
+				AABE949C1699CB75002B8716 /* Foundation.framework in Frameworks */,
+				AABE949E1699CB75002B8716 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AABE948A1699CB75002B8716 = {
+			isa = PBXGroup;
+			children = (
+				AABE949F1699CB75002B8716 /* QBRefreshControl */,
+				AABE94981699CB75002B8716 /* Frameworks */,
+				AABE94961699CB75002B8716 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AABE94961699CB75002B8716 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AABE94951699CB75002B8716 /* QBRefreshControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AABE94981699CB75002B8716 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AABE94991699CB75002B8716 /* UIKit.framework */,
+				AABE949B1699CB75002B8716 /* Foundation.framework */,
+				AABE949D1699CB75002B8716 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AABE949F1699CB75002B8716 /* QBRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				AABE94A81699CB75002B8716 /* AppDelegate.h */,
+				AABE94A91699CB75002B8716 /* AppDelegate.m */,
+				AABE94B11699CB75002B8716 /* MainStoryboard.storyboard */,
+				AABE94B41699CB75002B8716 /* ViewController.h */,
+				AABE94B51699CB75002B8716 /* ViewController.m */,
+				AABE94A01699CB75002B8716 /* Supporting Files */,
+			);
+			path = QBRefreshControl;
+			sourceTree = "<group>";
+		};
+		AABE94A01699CB75002B8716 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AABE94A11699CB75002B8716 /* QBRefreshControl-Info.plist */,
+				AABE94A21699CB75002B8716 /* InfoPlist.strings */,
+				AABE94A51699CB75002B8716 /* main.m */,
+				AABE94A71699CB75002B8716 /* QBRefreshControl-Prefix.pch */,
+				AABE94AB1699CB75002B8716 /* Default.png */,
+				AABE94AD1699CB75002B8716 /* Default@2x.png */,
+				AABE94AF1699CB75002B8716 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AABE94941699CB75002B8716 /* QBRefreshControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABE94B91699CB75002B8716 /* Build configuration list for PBXNativeTarget "QBRefreshControl" */;
+			buildPhases = (
+				AABE94911699CB75002B8716 /* Sources */,
+				AABE94921699CB75002B8716 /* Frameworks */,
+				AABE94931699CB75002B8716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QBRefreshControl;
+			productName = QBRefreshControl;
+			productReference = AABE94951699CB75002B8716 /* QBRefreshControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AABE948C1699CB75002B8716 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Katsuma Tanaka";
+			};
+			buildConfigurationList = AABE948F1699CB75002B8716 /* Build configuration list for PBXProject "QBRefreshControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AABE948A1699CB75002B8716;
+			productRefGroup = AABE94961699CB75002B8716 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AABE94941699CB75002B8716 /* QBRefreshControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AABE94931699CB75002B8716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABE94A41699CB75002B8716 /* InfoPlist.strings in Resources */,
+				AABE94AC1699CB75002B8716 /* Default.png in Resources */,
+				AABE94AE1699CB75002B8716 /* Default@2x.png in Resources */,
+				AABE94B01699CB75002B8716 /* Default-568h@2x.png in Resources */,
+				AABE94B31699CB75002B8716 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AABE94911699CB75002B8716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABE94A61699CB75002B8716 /* main.m in Sources */,
+				AABE94AA1699CB75002B8716 /* AppDelegate.m in Sources */,
+				AABE94B61699CB75002B8716 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AABE94A21699CB75002B8716 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AABE94A31699CB75002B8716 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AABE94B11699CB75002B8716 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AABE94B21699CB75002B8716 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AABE94B71699CB75002B8716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AABE94B81699CB75002B8716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AABE94BA1699CB75002B8716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QBRefreshControl/QBRefreshControl-Prefix.pch";
+				INFOPLIST_FILE = "QBRefreshControl/QBRefreshControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AABE94BB1699CB75002B8716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QBRefreshControl/QBRefreshControl-Prefix.pch";
+				INFOPLIST_FILE = "QBRefreshControl/QBRefreshControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AABE948F1699CB75002B8716 /* Build configuration list for PBXProject "QBRefreshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABE94B71699CB75002B8716 /* Debug */,
+				AABE94B81699CB75002B8716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABE94B91699CB75002B8716 /* Build configuration list for PBXNativeTarget "QBRefreshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABE94BA1699CB75002B8716 /* Debug */,
+				AABE94BB1699CB75002B8716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AABE948C1699CB75002B8716 /* Project object */;
+}
