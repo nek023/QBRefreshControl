@@ -17,7 +17,26 @@
 		AABE94AE1699CB75002B8716 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AABE94AD1699CB75002B8716 /* Default@2x.png */; };
 		AABE94B01699CB75002B8716 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AABE94AF1699CB75002B8716 /* Default-568h@2x.png */; };
 		AABE94B31699CB75002B8716 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABE94B11699CB75002B8716 /* MainStoryboard.storyboard */; };
-		AABE94B61699CB75002B8716 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94B51699CB75002B8716 /* ViewController.m */; };
+		AABE94C31699CCB5002B8716 /* QBRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94C21699CCB5002B8716 /* QBRefreshControl.m */; };
+		AABE94C81699CCC6002B8716 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = AABE94C41699CCC6002B8716 /* arrow.png */; };
+		AABE94C91699CCC6002B8716 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AABE94C51699CCC6002B8716 /* arrow@2x.png */; };
+		AABE94CA1699CCC6002B8716 /* QBArrowRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94C71699CCC6002B8716 /* QBArrowRefreshControl.m */; };
+		AABE94D11699CCF9002B8716 /* QBSimpleSyncRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94CE1699CCF9002B8716 /* QBSimpleSyncRefreshControl.m */; };
+		AABE94D21699CCF9002B8716 /* sync.png in Resources */ = {isa = PBXBuildFile; fileRef = AABE94CF1699CCF9002B8716 /* sync.png */; };
+		AABE94D31699CCF9002B8716 /* sync@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AABE94D01699CCF9002B8716 /* sync@2x.png */; };
+		AABE94DC1699CD0A002B8716 /* face_ffffuuuu.png in Resources */ = {isa = PBXBuildFile; fileRef = AABE94D41699CD0A002B8716 /* face_ffffuuuu.png */; };
+		AABE94DD1699CD0A002B8716 /* face_ffffuuuu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AABE94D51699CD0A002B8716 /* face_ffffuuuu@2x.png */; };
+		AABE94DE1699CD0A002B8716 /* face_hi.png in Resources */ = {isa = PBXBuildFile; fileRef = AABE94D61699CD0A002B8716 /* face_hi.png */; };
+		AABE94DF1699CD0A002B8716 /* face_hi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AABE94D71699CD0A002B8716 /* face_hi@2x.png */; };
+		AABE94E01699CD0A002B8716 /* face_wat.png in Resources */ = {isa = PBXBuildFile; fileRef = AABE94D81699CD0A002B8716 /* face_wat.png */; };
+		AABE94E11699CD0A002B8716 /* face_wat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AABE94D91699CD0A002B8716 /* face_wat@2x.png */; };
+		AABE94E21699CD0A002B8716 /* QBFunnyFaceRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94DB1699CD0A002B8716 /* QBFunnyFaceRefreshControl.m */; };
+		AABE94ED1699CD5A002B8716 /* QBAnimationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94E81699CD5A002B8716 /* QBAnimationGroup.m */; };
+		AABE94EE1699CD5A002B8716 /* QBAnimationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94EA1699CD5A002B8716 /* QBAnimationItem.m */; };
+		AABE94EF1699CD5A002B8716 /* QBAnimationSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94EC1699CD5A002B8716 /* QBAnimationSequence.m */; };
+		AABE94F71699CD82002B8716 /* ArrowDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94F21699CD82002B8716 /* ArrowDemoViewController.m */; };
+		AABE94F81699CD82002B8716 /* FunnyFaceDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94F41699CD82002B8716 /* FunnyFaceDemoViewController.m */; };
+		AABE94F91699CD82002B8716 /* SyncDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94F61699CD82002B8716 /* SyncDemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +54,36 @@
 		AABE94AD1699CB75002B8716 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		AABE94AF1699CB75002B8716 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AABE94B21699CB75002B8716 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		AABE94B41699CB75002B8716 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AABE94B51699CB75002B8716 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AABE94C11699CCB5002B8716 /* QBRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBRefreshControl.h; sourceTree = "<group>"; };
+		AABE94C21699CCB5002B8716 /* QBRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBRefreshControl.m; sourceTree = "<group>"; };
+		AABE94C41699CCC6002B8716 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		AABE94C51699CCC6002B8716 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
+		AABE94C61699CCC6002B8716 /* QBArrowRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBArrowRefreshControl.h; sourceTree = "<group>"; };
+		AABE94C71699CCC6002B8716 /* QBArrowRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBArrowRefreshControl.m; sourceTree = "<group>"; };
+		AABE94CD1699CCF9002B8716 /* QBSimpleSyncRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBSimpleSyncRefreshControl.h; sourceTree = "<group>"; };
+		AABE94CE1699CCF9002B8716 /* QBSimpleSyncRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBSimpleSyncRefreshControl.m; sourceTree = "<group>"; };
+		AABE94CF1699CCF9002B8716 /* sync.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sync.png; sourceTree = "<group>"; };
+		AABE94D01699CCF9002B8716 /* sync@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sync@2x.png"; sourceTree = "<group>"; };
+		AABE94D41699CD0A002B8716 /* face_ffffuuuu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face_ffffuuuu.png; sourceTree = "<group>"; };
+		AABE94D51699CD0A002B8716 /* face_ffffuuuu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "face_ffffuuuu@2x.png"; sourceTree = "<group>"; };
+		AABE94D61699CD0A002B8716 /* face_hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face_hi.png; sourceTree = "<group>"; };
+		AABE94D71699CD0A002B8716 /* face_hi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "face_hi@2x.png"; sourceTree = "<group>"; };
+		AABE94D81699CD0A002B8716 /* face_wat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face_wat.png; sourceTree = "<group>"; };
+		AABE94D91699CD0A002B8716 /* face_wat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "face_wat@2x.png"; sourceTree = "<group>"; };
+		AABE94DA1699CD0A002B8716 /* QBFunnyFaceRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBFunnyFaceRefreshControl.h; sourceTree = "<group>"; };
+		AABE94DB1699CD0A002B8716 /* QBFunnyFaceRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBFunnyFaceRefreshControl.m; sourceTree = "<group>"; };
+		AABE94E71699CD5A002B8716 /* QBAnimationGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAnimationGroup.h; sourceTree = "<group>"; };
+		AABE94E81699CD5A002B8716 /* QBAnimationGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAnimationGroup.m; sourceTree = "<group>"; };
+		AABE94E91699CD5A002B8716 /* QBAnimationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAnimationItem.h; sourceTree = "<group>"; };
+		AABE94EA1699CD5A002B8716 /* QBAnimationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAnimationItem.m; sourceTree = "<group>"; };
+		AABE94EB1699CD5A002B8716 /* QBAnimationSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAnimationSequence.h; sourceTree = "<group>"; };
+		AABE94EC1699CD5A002B8716 /* QBAnimationSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAnimationSequence.m; sourceTree = "<group>"; };
+		AABE94F11699CD82002B8716 /* ArrowDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrowDemoViewController.h; sourceTree = "<group>"; };
+		AABE94F21699CD82002B8716 /* ArrowDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrowDemoViewController.m; sourceTree = "<group>"; };
+		AABE94F31699CD82002B8716 /* FunnyFaceDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunnyFaceDemoViewController.h; sourceTree = "<group>"; };
+		AABE94F41699CD82002B8716 /* FunnyFaceDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunnyFaceDemoViewController.m; sourceTree = "<group>"; };
+		AABE94F51699CD82002B8716 /* SyncDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncDemoViewController.h; sourceTree = "<group>"; };
+		AABE94F61699CD82002B8716 /* SyncDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncDemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +130,20 @@
 		AABE949F1699CB75002B8716 /* QBRefreshControl */ = {
 			isa = PBXGroup;
 			children = (
+				AABE94F01699CD5F002B8716 /* QBAnimationSequence */,
+				AABE94C01699CC9E002B8716 /* QBRefreshControl */,
 				AABE94A81699CB75002B8716 /* AppDelegate.h */,
 				AABE94A91699CB75002B8716 /* AppDelegate.m */,
 				AABE94B11699CB75002B8716 /* MainStoryboard.storyboard */,
-				AABE94B41699CB75002B8716 /* ViewController.h */,
-				AABE94B51699CB75002B8716 /* ViewController.m */,
+				AABE94F11699CD82002B8716 /* ArrowDemoViewController.h */,
+				AABE94F21699CD82002B8716 /* ArrowDemoViewController.m */,
+				AABE94F31699CD82002B8716 /* FunnyFaceDemoViewController.h */,
+				AABE94F41699CD82002B8716 /* FunnyFaceDemoViewController.m */,
+				AABE94F51699CD82002B8716 /* SyncDemoViewController.h */,
+				AABE94F61699CD82002B8716 /* SyncDemoViewController.m */,
+				AABE94CB1699CCCF002B8716 /* QBArrowRefreshControl */,
+				AABE94E31699CD11002B8716 /* QBSimpleSyncRefreshControl */,
+				AABE94E51699CD2E002B8716 /* QBFunnyFaceRefreshControl */,
 				AABE94A01699CB75002B8716 /* Supporting Files */,
 			);
 			path = QBRefreshControl;
@@ -105,6 +161,89 @@
 				AABE94AF1699CB75002B8716 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AABE94C01699CC9E002B8716 /* QBRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				AABE94C11699CCB5002B8716 /* QBRefreshControl.h */,
+				AABE94C21699CCB5002B8716 /* QBRefreshControl.m */,
+			);
+			name = QBRefreshControl;
+			sourceTree = "<group>";
+		};
+		AABE94CB1699CCCF002B8716 /* QBArrowRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				AABE94CC1699CCD1002B8716 /* Resources */,
+				AABE94C61699CCC6002B8716 /* QBArrowRefreshControl.h */,
+				AABE94C71699CCC6002B8716 /* QBArrowRefreshControl.m */,
+			);
+			name = QBArrowRefreshControl;
+			sourceTree = "<group>";
+		};
+		AABE94CC1699CCD1002B8716 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AABE94C41699CCC6002B8716 /* arrow.png */,
+				AABE94C51699CCC6002B8716 /* arrow@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AABE94E31699CD11002B8716 /* QBSimpleSyncRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				AABE94E41699CD1E002B8716 /* Resources */,
+				AABE94CD1699CCF9002B8716 /* QBSimpleSyncRefreshControl.h */,
+				AABE94CE1699CCF9002B8716 /* QBSimpleSyncRefreshControl.m */,
+			);
+			name = QBSimpleSyncRefreshControl;
+			sourceTree = "<group>";
+		};
+		AABE94E41699CD1E002B8716 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AABE94CF1699CCF9002B8716 /* sync.png */,
+				AABE94D01699CCF9002B8716 /* sync@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AABE94E51699CD2E002B8716 /* QBFunnyFaceRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				AABE94E61699CD31002B8716 /* Resources */,
+				AABE94DA1699CD0A002B8716 /* QBFunnyFaceRefreshControl.h */,
+				AABE94DB1699CD0A002B8716 /* QBFunnyFaceRefreshControl.m */,
+			);
+			name = QBFunnyFaceRefreshControl;
+			sourceTree = "<group>";
+		};
+		AABE94E61699CD31002B8716 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AABE94D41699CD0A002B8716 /* face_ffffuuuu.png */,
+				AABE94D51699CD0A002B8716 /* face_ffffuuuu@2x.png */,
+				AABE94D61699CD0A002B8716 /* face_hi.png */,
+				AABE94D71699CD0A002B8716 /* face_hi@2x.png */,
+				AABE94D81699CD0A002B8716 /* face_wat.png */,
+				AABE94D91699CD0A002B8716 /* face_wat@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AABE94F01699CD5F002B8716 /* QBAnimationSequence */ = {
+			isa = PBXGroup;
+			children = (
+				AABE94E71699CD5A002B8716 /* QBAnimationGroup.h */,
+				AABE94E81699CD5A002B8716 /* QBAnimationGroup.m */,
+				AABE94E91699CD5A002B8716 /* QBAnimationItem.h */,
+				AABE94EA1699CD5A002B8716 /* QBAnimationItem.m */,
+				AABE94EB1699CD5A002B8716 /* QBAnimationSequence.h */,
+				AABE94EC1699CD5A002B8716 /* QBAnimationSequence.m */,
+			);
+			name = QBAnimationSequence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +302,16 @@
 				AABE94AE1699CB75002B8716 /* Default@2x.png in Resources */,
 				AABE94B01699CB75002B8716 /* Default-568h@2x.png in Resources */,
 				AABE94B31699CB75002B8716 /* MainStoryboard.storyboard in Resources */,
+				AABE94C81699CCC6002B8716 /* arrow.png in Resources */,
+				AABE94C91699CCC6002B8716 /* arrow@2x.png in Resources */,
+				AABE94D21699CCF9002B8716 /* sync.png in Resources */,
+				AABE94D31699CCF9002B8716 /* sync@2x.png in Resources */,
+				AABE94DC1699CD0A002B8716 /* face_ffffuuuu.png in Resources */,
+				AABE94DD1699CD0A002B8716 /* face_ffffuuuu@2x.png in Resources */,
+				AABE94DE1699CD0A002B8716 /* face_hi.png in Resources */,
+				AABE94DF1699CD0A002B8716 /* face_hi@2x.png in Resources */,
+				AABE94E01699CD0A002B8716 /* face_wat.png in Resources */,
+				AABE94E11699CD0A002B8716 /* face_wat@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +324,16 @@
 			files = (
 				AABE94A61699CB75002B8716 /* main.m in Sources */,
 				AABE94AA1699CB75002B8716 /* AppDelegate.m in Sources */,
-				AABE94B61699CB75002B8716 /* ViewController.m in Sources */,
+				AABE94C31699CCB5002B8716 /* QBRefreshControl.m in Sources */,
+				AABE94CA1699CCC6002B8716 /* QBArrowRefreshControl.m in Sources */,
+				AABE94D11699CCF9002B8716 /* QBSimpleSyncRefreshControl.m in Sources */,
+				AABE94E21699CD0A002B8716 /* QBFunnyFaceRefreshControl.m in Sources */,
+				AABE94ED1699CD5A002B8716 /* QBAnimationGroup.m in Sources */,
+				AABE94EE1699CD5A002B8716 /* QBAnimationItem.m in Sources */,
+				AABE94EF1699CD5A002B8716 /* QBAnimationSequence.m in Sources */,
+				AABE94F71699CD82002B8716 /* ArrowDemoViewController.m in Sources */,
+				AABE94F81699CD82002B8716 /* FunnyFaceDemoViewController.m in Sources */,
+				AABE94F91699CD82002B8716 /* SyncDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
