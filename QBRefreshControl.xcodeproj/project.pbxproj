@@ -72,12 +72,12 @@
 		AABE94D91699CD0A002B8716 /* face_wat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "face_wat@2x.png"; sourceTree = "<group>"; };
 		AABE94DA1699CD0A002B8716 /* QBFunnyFaceRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBFunnyFaceRefreshControl.h; sourceTree = "<group>"; };
 		AABE94DB1699CD0A002B8716 /* QBFunnyFaceRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBFunnyFaceRefreshControl.m; sourceTree = "<group>"; };
-		AABE94E71699CD5A002B8716 /* QBAnimationGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAnimationGroup.h; sourceTree = "<group>"; };
-		AABE94E81699CD5A002B8716 /* QBAnimationGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAnimationGroup.m; sourceTree = "<group>"; };
-		AABE94E91699CD5A002B8716 /* QBAnimationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAnimationItem.h; sourceTree = "<group>"; };
-		AABE94EA1699CD5A002B8716 /* QBAnimationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAnimationItem.m; sourceTree = "<group>"; };
-		AABE94EB1699CD5A002B8716 /* QBAnimationSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAnimationSequence.h; sourceTree = "<group>"; };
-		AABE94EC1699CD5A002B8716 /* QBAnimationSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAnimationSequence.m; sourceTree = "<group>"; };
+		AABE94E71699CD5A002B8716 /* QBAnimationGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QBAnimationGroup.h; path = ../QBAnimationSequence/QBAnimationSequence/QBAnimationGroup.h; sourceTree = "<group>"; };
+		AABE94E81699CD5A002B8716 /* QBAnimationGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QBAnimationGroup.m; path = ../QBAnimationSequence/QBAnimationSequence/QBAnimationGroup.m; sourceTree = "<group>"; };
+		AABE94E91699CD5A002B8716 /* QBAnimationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QBAnimationItem.h; path = ../QBAnimationSequence/QBAnimationSequence/QBAnimationItem.h; sourceTree = "<group>"; };
+		AABE94EA1699CD5A002B8716 /* QBAnimationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QBAnimationItem.m; path = ../QBAnimationSequence/QBAnimationSequence/QBAnimationItem.m; sourceTree = "<group>"; };
+		AABE94EB1699CD5A002B8716 /* QBAnimationSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QBAnimationSequence.h; path = ../QBAnimationSequence/QBAnimationSequence/QBAnimationSequence.h; sourceTree = "<group>"; };
+		AABE94EC1699CD5A002B8716 /* QBAnimationSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QBAnimationSequence.m; path = ../QBAnimationSequence/QBAnimationSequence/QBAnimationSequence.m; sourceTree = "<group>"; };
 		AABE94F11699CD82002B8716 /* ArrowDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrowDemoViewController.h; sourceTree = "<group>"; };
 		AABE94F21699CD82002B8716 /* ArrowDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrowDemoViewController.m; sourceTree = "<group>"; };
 		AABE94F31699CD82002B8716 /* FunnyFaceDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunnyFaceDemoViewController.h; sourceTree = "<group>"; };
@@ -448,6 +448,7 @@
 				AABE94BB1699CB75002B8716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
