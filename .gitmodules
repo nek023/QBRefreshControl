@@ -1,0 +1,3 @@
+[submodule "QBAnimationSequence"]
+	path = QBAnimationSequence
+	url = git@github.com:questbeat/QBAnimationSequence.git
