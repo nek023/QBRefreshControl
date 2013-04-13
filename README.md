@@ -1,6 +1,14 @@
 # QBRefreshControl
 QBRefreshControl is an abstract base class for creating a refresh control.
 
+### NOTES
+This demo uses [QBAnimationSequence](https://github.com/questbeat/QBAnimationSequence) as a submodule for animation control, so you should do
+
+	git submodule init
+	git submodule update
+	
+at first.
+
 
 ## ScreenShot
 ![ss01.png](http://adotout.sakura.ne.jp/github/QBRefreshControl/ss01.png)
