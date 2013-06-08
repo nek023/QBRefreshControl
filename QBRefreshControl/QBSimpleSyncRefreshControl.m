@@ -17,7 +17,7 @@
     QBAnimationSequence *_sequence;
 }
 
-@property (nonatomic, retain) UIImageView *imageView;
+@property (nonatomic, strong) UIImageView *imageView;
 @property (nonatomic, assign) CGFloat angle;
 
 @end
@@ -52,18 +52,9 @@
         
         _sequence = [[QBAnimationSequence alloc] initWithAnimationGroups:@[group] repeat:YES];
                 
-        [imageView release];
     }
     
     return self;
-}
-
-- (void)dealloc
-{
-    [_imageView release];
-    [_sequence release];
-    
-    [super dealloc];
 }
 
 - (void)setState:(QBRefreshControlState)state

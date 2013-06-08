@@ -10,7 +10,7 @@
 
 @interface SyncDemoViewController ()
 
-@property (nonatomic, retain) QBSimpleSyncRefreshControl *myRefreshControl;
+@property (nonatomic, strong) QBSimpleSyncRefreshControl *myRefreshControl;
 
 @end
 
@@ -25,7 +25,6 @@
     refreshControl.delegate = self;
     [self.tableView addSubview:refreshControl];
     self.myRefreshControl = refreshControl;
-    [refreshControl release];
 }
 
 - (void)didReceiveMemoryWarning

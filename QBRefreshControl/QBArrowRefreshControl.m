@@ -10,12 +10,12 @@
 
 @interface QBArrowRefreshControl ()
 
-@property (nonatomic, retain) UIImageView *arrowImageView;
-@property (nonatomic, retain) UIActivityIndicatorView *activityIndicatorView;
-@property (nonatomic, retain) UILabel *titleLabel;
-@property (nonatomic, retain) UILabel *timeLabel;
+@property (nonatomic, strong) UIImageView *arrowImageView;
+@property (nonatomic, strong) UIActivityIndicatorView *activityIndicatorView;
+@property (nonatomic, strong) UILabel *titleLabel;
+@property (nonatomic, strong) UILabel *timeLabel;
 
-@property (nonatomic, readonly) NSString *lastUpdateFormattedString;
+@property (weak, nonatomic, readonly) NSString *lastUpdateFormattedString;
 
 @end
 
@@ -39,7 +39,6 @@
         
         [self addSubview:arrowImageView];
         self.arrowImageView = arrowImageView;
-        [arrowImageView release];
         
         // インジケータ
         UIActivityIndicatorView *activityIndicatorView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
@@ -47,7 +46,6 @@
         
         [self addSubview:activityIndicatorView];
         self.activityIndicatorView = activityIndicatorView;
-        [activityIndicatorView release];
         
         // タイトルラベル
         UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(70, 7, 193, 21)];
@@ -59,7 +57,6 @@
         
         [self addSubview:titleLabel];
         self.titleLabel = titleLabel;
-        [titleLabel release];
         
         // 更新時間
         UILabel *timeLabel = [[UILabel alloc] initWithFrame:CGRectMake(70, 30, 193, 21)];
@@ -72,23 +69,11 @@
         
         [self addSubview:timeLabel];
         self.timeLabel = timeLabel;
-        [timeLabel release];
     }
     
     return self;
 }
 
-- (void)dealloc
-{
-    [_arrowImageView release];
-    [_activityIndicatorView release];
-    [_titleLabel release];
-    [_timeLabel release];
-    
-    [_lastUpdate release];
-    
-    [super dealloc];
-}
 
 - (void)setState:(QBRefreshControlState)state
 {
@@ -157,7 +142,6 @@
     
     NSString *formattedString = [dateFormatter stringFromDate:self.lastUpdate];
     
-    [dateFormatter release];
     
     return formattedString;
 }

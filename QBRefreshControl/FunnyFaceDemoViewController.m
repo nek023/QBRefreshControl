@@ -10,7 +10,7 @@
 
 @interface FunnyFaceDemoViewController ()
 
-@property (nonatomic, retain) QBFunnyFaceRefreshControl *myRefreshControl;
+@property (nonatomic, strong) QBFunnyFaceRefreshControl *myRefreshControl;
 
 @end
 
@@ -25,7 +25,6 @@
     refreshControl.delegate = self;
     [self.tableView addSubview:refreshControl];
     self.myRefreshControl = refreshControl;
-    [refreshControl release];
 }
 
 - (void)didReceiveMemoryWarning

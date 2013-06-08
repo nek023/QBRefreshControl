@@ -10,7 +10,7 @@
 
 @interface ArrowDemoViewController ()
 
-@property (nonatomic, retain) QBArrowRefreshControl *myRefreshControl;
+@property (nonatomic, strong) QBArrowRefreshControl *myRefreshControl;
 
 @end
 
@@ -24,14 +24,12 @@
     UIView *bgView = [[UIView alloc] initWithFrame:CGRectMake(0, -400, 320, 400)];
     bgView.backgroundColor = [UIColor blackColor];
     [self.tableView addSubview:bgView];
-    [bgView release];
     
     // Refresh Control
     QBArrowRefreshControl *refreshControl = [[QBArrowRefreshControl alloc] init];
     refreshControl.delegate = self;
     [self.tableView addSubview:refreshControl];
     self.myRefreshControl = refreshControl;
-    [refreshControl release];
     
     return;
 }

@@ -31,9 +31,9 @@
 		AABE94E01699CD0A002B8716 /* face_wat.png in Resources */ = {isa = PBXBuildFile; fileRef = AABE94D81699CD0A002B8716 /* face_wat.png */; };
 		AABE94E11699CD0A002B8716 /* face_wat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AABE94D91699CD0A002B8716 /* face_wat@2x.png */; };
 		AABE94E21699CD0A002B8716 /* QBFunnyFaceRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94DB1699CD0A002B8716 /* QBFunnyFaceRefreshControl.m */; };
-		AABE94ED1699CD5A002B8716 /* QBAnimationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94E81699CD5A002B8716 /* QBAnimationGroup.m */; };
-		AABE94EE1699CD5A002B8716 /* QBAnimationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94EA1699CD5A002B8716 /* QBAnimationItem.m */; };
-		AABE94EF1699CD5A002B8716 /* QBAnimationSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94EC1699CD5A002B8716 /* QBAnimationSequence.m */; };
+		AABE94ED1699CD5A002B8716 /* QBAnimationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94E81699CD5A002B8716 /* QBAnimationGroup.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AABE94EE1699CD5A002B8716 /* QBAnimationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94EA1699CD5A002B8716 /* QBAnimationItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AABE94EF1699CD5A002B8716 /* QBAnimationSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94EC1699CD5A002B8716 /* QBAnimationSequence.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AABE94F71699CD82002B8716 /* ArrowDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94F21699CD82002B8716 /* ArrowDemoViewController.m */; };
 		AABE94F81699CD82002B8716 /* FunnyFaceDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94F41699CD82002B8716 /* FunnyFaceDemoViewController.m */; };
 		AABE94F91699CD82002B8716 /* SyncDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE94F61699CD82002B8716 /* SyncDemoViewController.m */; };
@@ -410,6 +410,7 @@
 		AABE94BA1699CB75002B8716 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QBRefreshControl/QBRefreshControl-Prefix.pch";
 				INFOPLIST_FILE = "QBRefreshControl/QBRefreshControl-Info.plist";
@@ -421,6 +422,7 @@
 		AABE94BB1699CB75002B8716 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QBRefreshControl/QBRefreshControl-Prefix.pch";
 				INFOPLIST_FILE = "QBRefreshControl/QBRefreshControl-Info.plist";

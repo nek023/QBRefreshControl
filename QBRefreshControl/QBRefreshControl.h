@@ -31,10 +31,10 @@ typedef enum {
 
 @interface QBRefreshControl : UIView
 
-@property (nonatomic, assign) id<QBRefreshControlDelegate> delegate;
+@property (nonatomic, weak) id<QBRefreshControlDelegate> delegate;
 @property (nonatomic, assign) CGFloat threshold;
 @property (nonatomic, assign) QBRefreshControlState state;
-@property (nonatomic, readonly) UIScrollView *scrollView;
+@property (weak, nonatomic, readonly) UIScrollView *scrollView;
 
 - (void)beginRefreshing;
 - (void)endRefreshing;

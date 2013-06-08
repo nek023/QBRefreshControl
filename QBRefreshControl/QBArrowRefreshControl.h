@@ -10,6 +10,6 @@
 
 @interface QBArrowRefreshControl : QBRefreshControl
 
-@property (nonatomic, retain) NSDate *lastUpdate;
+@property (nonatomic, strong) NSDate *lastUpdate;
 
 @end
