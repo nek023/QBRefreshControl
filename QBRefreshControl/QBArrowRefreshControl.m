@@ -21,11 +21,11 @@
 
 @implementation QBArrowRefreshControl
 
-- (id)init
+- (instancetype)init
 {
     self = [super init];
     
-    if(self) {
+    if (self) {
         self.frame = CGRectMake(0, 0, 320, 60);
         self.threshold = -60;
         

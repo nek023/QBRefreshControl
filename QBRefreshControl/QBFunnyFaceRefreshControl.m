@@ -23,11 +23,11 @@
 
 @implementation QBFunnyFaceRefreshControl
 
-- (id)init
+- (instancetype)init
 {
     self = [super init];
     
-    if(self) {
+    if (self) {
         self.frame = CGRectMake(0, 0, 320, 100);
         self.threshold = -100;
         

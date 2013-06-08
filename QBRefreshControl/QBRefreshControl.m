@@ -21,11 +21,11 @@
 
 @implementation QBRefreshControl
 
-- (id)init
+- (instancetype)init
 {
     self = [super init];
     
-    if(self) {
+    if (self) {
         self.threshold = -60;
         self.state = QBRefreshControlStateHidden;
         
@@ -46,7 +46,7 @@
 {
     UIScrollView *scrollView = (UIScrollView *)self.superview;
     
-    if(![scrollView isKindOfClass:[UIScrollView class]])
+    if (![scrollView isKindOfClass:[UIScrollView class]])
         scrollView = nil;
     
     return scrollView;
@@ -54,11 +54,11 @@
 
 - (void)willMoveToSuperview:(UIView *)newSuperview
 {
-    if(self.scrollView != nil) {
+    if (self.scrollView != nil) {
         [self.scrollView removeObserver:self forKeyPath:@"contentOffset"];
     }
     
-    if([newSuperview isKindOfClass:[UIScrollView class]]) {
+    if ([newSuperview isKindOfClass:[UIScrollView class]]) {
         self.frame = CGRectMake(0, 0 - self.frame.size.height, self.frame.size.width, self.frame.size.height);
         
         [newSuperview addObserver:self
@@ -70,11 +70,11 @@
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
-    if([keyPath isEqualToString:@"contentOffset"]) {
+    if ([keyPath isEqualToString:@"contentOffset"]) {
         UIScrollView *scrollView = (UIScrollView *)object;
         
-        if(self.dragging != scrollView.dragging) {
-            if(!scrollView.dragging) {
+        if (self.dragging != scrollView.dragging) {
+            if (!scrollView.dragging) {
                 [self scrollViewDidEndDragging:scrollView willDecelerate:NO];
             }
             
@@ -90,7 +90,7 @@
 
 - (void)beginRefreshing
 {
-    if([self.delegate respondsToSelector:@selector(refreshControlWillBeginRefreshing:)]) {
+    if ([self.delegate respondsToSelector:@selector(refreshControlWillBeginRefreshing:)]) {
         [self.delegate refreshControlWillBeginRefreshing:self];
     }
     
@@ -102,20 +102,20 @@
         scrollView.contentInset = UIEdgeInsetsMake(0 - self.threshold, 0, 0, 0);
     } completion:NULL];
     
-    if([self.delegate respondsToSelector:@selector(refreshControlDidBeginRefreshing:)]) {
+    if ([self.delegate respondsToSelector:@selector(refreshControlDidBeginRefreshing:)]) {
         [self.delegate refreshControlDidBeginRefreshing:self];
     }
 }
 
 - (void)endRefreshing
 {
-    if([self.delegate respondsToSelector:@selector(refreshControlWillEndRefreshing:)]) {
+    if ([self.delegate respondsToSelector:@selector(refreshControlWillEndRefreshing:)]) {
         [self.delegate refreshControlWillEndRefreshing:self];
     }
     
     UIScrollView *scrollView = self.scrollView;
     
-    if(scrollView.contentOffset.y < 0) {
+    if (scrollView.contentOffset.y < 0) {
         CGPoint offset = scrollView.contentOffset;
         scrollView.contentInset = UIEdgeInsetsMake(0, 0, 0, 0);
         [scrollView setContentOffset:offset animated:NO];
@@ -129,7 +129,7 @@
     
     self.state = QBRefreshControlStateHidden;
     
-    if([self.delegate respondsToSelector:@selector(refreshControlDidEndRefreshing:)]) {
+    if ([self.delegate respondsToSelector:@selector(refreshControlDidEndRefreshing:)]) {
         [self.delegate refreshControlDidEndRefreshing:self];
     }
 }
@@ -139,11 +139,11 @@
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
-    if(self.state == QBRefreshControlStateStopping) return;
+    if (self.state == QBRefreshControlStateStopping) return;
     
-    if(self.threshold <= scrollView.contentOffset.y && scrollView.contentOffset.y < 0) {
+    if (self.threshold <= scrollView.contentOffset.y && scrollView.contentOffset.y < 0) {
         self.state = QBRefreshControlStatePullingDown;
-    } else if(scrollView.contentOffset.y < self.threshold) {
+    } else if (scrollView.contentOffset.y < self.threshold) {
         self.state = QBRefreshControlStateOveredThreshold;
     } else {
         self.state = QBRefreshControlStateHidden;
@@ -152,10 +152,10 @@
 
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
 {
-    if(self.state == QBRefreshControlStateStopping) return;
+    if (self.state == QBRefreshControlStateStopping) return;
     
-    if(self.state == QBRefreshControlStateOveredThreshold) {
-        if(scrollView.contentOffset.y < self.threshold) {
+    if (self.state == QBRefreshControlStateOveredThreshold) {
+        if (scrollView.contentOffset.y < self.threshold) {
             [scrollView setContentOffset:scrollView.contentOffset animated:NO];
         }
         

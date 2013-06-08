@@ -24,11 +24,11 @@
 
 @implementation QBSimpleSyncRefreshControl
 
-- (id)init
+- (instancetype)init
 {
     self = [super init];
     
-    if(self) {
+    if (self) {
         self.frame = CGRectMake(0, 0, 320, 80);
         self.threshold = -80;
         

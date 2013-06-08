@@ -12,12 +12,12 @@
 
 @class QBRefreshControl;
 
-typedef enum {
+typedef NS_ENUM(NSInteger, QBRefreshControlState) {
     QBRefreshControlStateHidden,
     QBRefreshControlStatePullingDown,
     QBRefreshControlStateOveredThreshold,
     QBRefreshControlStateStopping
-} QBRefreshControlState;
+};
 
 @protocol QBRefreshControlDelegate <NSObject>
 
