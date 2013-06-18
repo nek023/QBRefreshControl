@@ -100,6 +100,7 @@
     
     [UIView animateWithDuration:0.4 delay:0.0 options:UIViewAnimationOptionCurveEaseOut animations:^{
         scrollView.contentInset = UIEdgeInsetsMake(0 - self.threshold, 0, 0, 0);
+        scrollView.contentOffset = CGPointMake(0, self.threshold);
     } completion:NULL];
     
     if ([self.delegate respondsToSelector:@selector(refreshControlDidBeginRefreshing:)]) {
