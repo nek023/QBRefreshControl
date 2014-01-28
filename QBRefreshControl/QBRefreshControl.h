@@ -36,6 +36,8 @@ typedef NS_ENUM(NSInteger, QBRefreshControlState) {
 @property (nonatomic, assign) QBRefreshControlState state;
 @property (weak, nonatomic, readonly) UIScrollView *scrollView;
 
+- (void)stateChanged:(QBRefreshControlState)state;
+
 - (void)beginRefreshing;
 - (void)endRefreshing;
 

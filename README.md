@@ -20,11 +20,12 @@ at first.
 It is very easy to create your own refresh control conforming QBRefreshControl.
 
 1. Create a subclass of QBRefreshControl.
-2. Override `setState:` method to specify the behavior for each state of the control.  
-In this method, you have to write a `switch()` block and the following cases after `[super setState:state]`.
+2. Override `stateChanged:` method to specify the behavior for each state of the control.  
+In this method, you have to write a `switch()` block.
 	* QBRefreshControlStateHidden
 	* QBRefreshControlStatePullingDown
 	* QBRefreshControlStateOveredThreshold
+  * QBRefreshControlStateStopping
 3. Override `init`, `beginRefreshing`, `endRefreshing` as necessary.
 
 

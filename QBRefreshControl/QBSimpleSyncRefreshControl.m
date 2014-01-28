@@ -57,10 +57,8 @@
     return self;
 }
 
-- (void)setState:(QBRefreshControlState)state
+- (void)stateChanged:(QBRefreshControlState)state
 {
-    [super setState:state];
-    
     switch(state) {
         case QBRefreshControlStateHidden:
             break;
