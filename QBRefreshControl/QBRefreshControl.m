@@ -88,6 +88,17 @@
 
 #pragma mark - Refresh Control
 
+- (void)setState:(QBRefreshControlState)state
+{
+    _state = state;
+    [self stateChanged:_state];
+}
+
+- (void)stateChanged:(QBRefreshControlState)state
+{
+    // do your work here
+}
+
 - (void)beginRefreshing
 {
     if ([self.delegate respondsToSelector:@selector(refreshControlWillBeginRefreshing:)]) {
